@@ -1,0 +1,36 @@
+                      Plano de Testes - Formulário Liferay
+
+1. Objetivo: Este documento do plano de testes do Formulário Liferay tem os seguintes objetivos:
+- Identificar as informações do layout do formulário existe e os componentes que devem ser testados;
+- Descrever as estratégias de testes a serem empregadas;
+- Listar os elementos resultantes do projeto de testes.
+
+2. O Formulário (https://forms.liferay.com/web/forms/shared/-/form/122548)
+O formulário Liferay é composto por três campos que são obrigatórios, são eles:
+- "What is your name?";
+- "What is the date of your birth?";
+- "Why did you join the testing area?".
+
+3. Escopo
+O formulário Liferay deverá ser testado em três browsers diferentes (Microsoft Edge - Chrome - Mozilla Firefox).
+
+4. Requisitos a Testar
+
+Identificar como alvo de testes os casos de uso, requisitos funcionais e não funcionais do Formulário Liferay.
+
+4.1 Testes Funcionais
+- Verificar os idiomas do formulário;
+- Verificar se a URL funciona em browsers diferentes;
+- Verificar os campos existentes e obrigatórios no layout do formulário;
+- Verificar a tabulação entre os campos existentes;
+- Verificar o preechimento dos campos obrigatórios e suas respectivas mensagens de críticas;
+- Verificar se o envio das informações ocorreu sem erros.
+
+4.2 Testes da Interface
+- Navegar pela interface através dos campos, verificando se os mesmos podem ser expandidos e facilmente utilizados;
+- Verificar no formulário se todas as palavras e expressões apresentadas nos idiomas existentes estão em conformidade com as devidas normas sintáticas e gramaticais.
+
+5. Ferramentas utilizadas
+- Browsers: Microsoft Edge - Chrome - Mozilla Firefox.
+- Automação: Selenium
+- Controle de versões: GitHub

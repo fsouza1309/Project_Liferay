@@ -15,7 +15,6 @@ O formulário Liferay é composto por três campos que são obrigatórios, são 
 O formulário Liferay deverá ser testado em três browsers diferentes (Microsoft Edge - Chrome - Mozilla Firefox).
 
 4. Requisitos a Testar
-
 Identificar como alvo de testes os casos de uso, requisitos funcionais e não funcionais do Formulário Liferay.
 
 4.1 Testes Funcionais
@@ -30,7 +29,13 @@ Identificar como alvo de testes os casos de uso, requisitos funcionais e não fu
 - Navegar pela interface através dos campos, verificando se os mesmos podem ser expandidos e facilmente utilizados;
 - Verificar no formulário se todas as palavras e expressões apresentadas nos idiomas existentes estão em conformidade com as devidas normas sintáticas e gramaticais.
 
-5. Ferramentas utilizadas
+5. Estratégia de Automação de Teste - Form Liferay
+A estratégia utilizada para automação do testes do Form Liferay foi dividida em três partes:
+- Layout do Form Liferay: criar script para validar todos os campos do layout.
+- Campos obrigatórios: criar script para validar os campos obrigatórios e suas respectivas mensagens de críticas.
+- Enviar mensagem: criar script para preencher o formulário e enviar a mensagem.
+
+5.1 Ferramentas utilizadas
 - Browsers: Microsoft Edge - Chrome - Mozilla Firefox.
 - Automação: Selenium
 - Controle de versões: GitHub

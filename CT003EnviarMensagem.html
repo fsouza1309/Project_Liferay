@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://forms.liferay.com/web/forms/shared/-/form/122548" />
+<title>CT003EnviarMensagem</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CT003EnviarMensagem</td></tr>
+</thead><tbody>
+<!--Acessa a URL-->
+<tr>
+	<td>open</td>
+	<td>/web/forms/shared/-/form/122548</td>
+	<td></td>
+</tr>
+<!--Preenche os campos do Formulário-->
+<tr>
+	<td>type</td>
+	<td>name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$eRKbN3tL$0$$en_US</td>
+	<td>FELICIANO SILVA</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=yui_patched_v3_18_1_1_1620825853699_700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$mdxs5FoO$0$$en_US</td>
+	<td>QUALIDADE</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=yui_patched_v3_18_1_1_1620825853699_1164</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@value='01/01/2000'])[2]</td>
+	<td>01/01/2000</td>
+</tr>
+<!--Clica no botão Submit-->
+<tr>
+	<td>click</td>
+	<td>id=ddm-form-submit</td>
+	<td></td>
+</tr>
+<!--Valida a mensagem de informações enviadas-->
+<tr>
+	<td>assertText</td>
+	<td>css=p.ddm-form-description</td>
+	<td>Information sent successfully!</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

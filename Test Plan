@@ -1,7 +1,7 @@
                       Plano de Testes - Formulário Liferay
 
 1. Objetivo: Este documento do plano de testes do Formulário Liferay tem os seguintes objetivos:
-- Identificar as informações do layout do formulário existe e os componentes que devem ser testados;
+- Identificar as informações do layout do formulário existente e os componentes que devem ser testados;
 - Descrever as estratégias de testes a serem empregadas;
 - Listar os elementos resultantes do projeto de testes.
 
@@ -13,19 +13,24 @@ O formulário Liferay é composto por três campos que são obrigatórios, são 
 
 3. Escopo
 O formulário Liferay deverá ser testado em três browsers diferentes (Microsoft Edge - Chrome - Mozilla Firefox).
+Serão realizados testes manuais e automatizados.
 
 4. Requisitos a Testar
 Identificar como alvo de testes os casos de uso, requisitos funcionais e não funcionais do Formulário Liferay.
 
 4.1 Testes Funcionais
-- Verificar os idiomas do formulário;
+Assegurar o correto funcionamento dos recursos disponibilizados no Form Liferay, incluindo a navegação, inclusão das informações, fluxo dos casos de uso e resultados. 
+- Verificar os idiomas existentes no formulário;
 - Verificar se a URL funciona em browsers diferentes;
+- Verificar o designer do layout;
 - Verificar os campos existentes e obrigatórios no layout do formulário;
 - Verificar a tabulação entre os campos existentes;
-- Verificar o preechimento dos campos obrigatórios e suas respectivas mensagens de críticas;
+- Verificar o campo data e o calendário;
+- Verificar o tamanho e o preechimento dos campos obrigatórios com suas respectivas mensagens de críticas;
 - Verificar se o envio das informações ocorreu sem erros.
 
 4.2 Testes da Interface
+Os testes da interface tem como objetivo garantir a maior e melhor interação do usuário com o Form Liferay, para que o mesmo seja operado de maneira eficaz, eficiente e agradável.
 - Navegar pela interface através dos campos, verificando se os mesmos podem ser expandidos e facilmente utilizados;
 - Verificar no formulário se todas as palavras e expressões apresentadas nos idiomas existentes estão em conformidade com as devidas normas sintáticas e gramaticais.
 

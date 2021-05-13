@@ -49,6 +49,6 @@ clicar no botão "Submit" para enviar a mensagem. Logo que o Form Liferay é abe
 Observação: Esse erro foi reportado na sessão ISSUES, com os demais problemas encontrados durante os testes manuais.
 
 5.2 Ferramentas utilizadas
-- Browsers: Microsoft Edge - Chrome - Mozilla Firefox.
-- Automação: Selenium
-- Controle de versões: GitHub
+- Browsers: Microsoft Edge - Chrome - Mozilla Firefox Versão 53.0.3.
+- Automação: Selenium IDE 2.9.1.
+- Controle de versões: Git e GitHub.
